@@ -370,5 +370,72 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Tomás Gonzaga, Quadra 1, Bloco B,  Ap 303",
+      "number": "303",
+      "optionalAddress": "Quadra 1, Bloco B,  Ap 303",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 3,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Tomás Gonzaga, Quadra 1, Bloco B,  Ap 303",
+      "number": "303",
+      "optionalAddress": "Quadra 1, Bloco B,  Ap 303",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Anna Vitória Mendes Feminino Silva",
+      "email": "annavitoria12.mendes05@gmail.com",
+      "emailConfirmation": "annavitoria12.mendes05@gmail.com",
+      "address": "Rua Tomás Gonzaga",
+      "number": "303",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Anna Vitória Mendes Feminino Silva",
+      "email": "annavitoria12.mendes05@gmail.com",
+      "emailConfirmation": "annavitoria12.mendes05@gmail.com",
+      "address": "Rua Tomás Gonzaga",
+      "number": "303",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "chocpop"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
