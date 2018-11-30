@@ -12,7 +12,7 @@ const ROUTES : Routes = [
 
 @NgModule({
     declarations:[OrderComponent, OrderItemsComponent, DeliveryCostsComponent],
-    imports:[SharedModule, RouterModule.forChild(ROUTES)] // forChild e utilizado fora do projeto raiz
+    imports:[SharedModule, RouterModule.forChild(ROUTES)] // forChild e utilizado fora do projeto raiz sempre em modulos filhas
 })
 
 export class OrderModule{}

@@ -19,13 +19,11 @@ import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.compo
 import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
 
 import {ShoppingCartService} from './restaurant-detail/shopping-cart/shopping-cart.service';
-import { OrderComponent } from './order/order.component';
-import { OrderItemsComponent } from './order/order-items/order-items.component'
 
 import {OrderService} from "./order/order.service";
-import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { SharedModule } from './shared/shared.module';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
+
 
 @NgModule({
   declarations: [
@@ -39,16 +37,12 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
     ShoppingCartComponent,
     MenuItemComponent,
     ReviewsComponent,
-    OrderComponent,
-    OrderItemsComponent,
-    DeliveryCostsComponent,
-    OrderSummaryComponent
+    OrderSummaryComponent,
    ],
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule,
-    ReactiveFormsModule,
+    SharedModule,
     RouterModule.forRoot(ROUTES),
     SharedModule
   ],
